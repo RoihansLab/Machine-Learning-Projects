@@ -151,6 +151,7 @@ Machine-Learning-Projects/
 │   └── README.md
 │
 ├── 06_hyperparameter_tuning_Random_Forest/
+│   ├── hyperparameter_tuning_Random_Forest.ipynb
 │   └── README.md
 │
 ├── 07_Building_a_Linear_Regression_Model/
