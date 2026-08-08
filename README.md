@@ -97,10 +97,10 @@ I care less about collecting algorithm names and more about the fundamentals und
 - **03 — Transaction Pattern Analysis:** A two-stage pipeline on bank transaction data — K-Means clustering to discover customer segments, then a tuned classifier to predict segment membership. Rated **Advanced** by Dicoding Indonesia's review team.
 - **04 — Building Classification Model:** A foundational Random Forest classifier on the Iris dataset, built specifically to demonstrate and then fix a data leakage problem — comparing an overfit model against a properly validated one.
 - **05 — Comparing Classifiers for Building Classification Models:** Benchmarks multiple classification algorithms against each other on a shared classification task — a direct follow-up to the "try other classifiers" idea flagged as future work in Project 04.
-- **06 — Hyperparameter Tuning (Random Forest): Builds an untuned Random Forest baseline (0.85 test accuracy), then uses GridSearchCV across 100 hyperparameter combinations (5-fold CV, 500 fits) to find a better configuration — and visualizes the entire search space as 2D/3D plots rather than just reporting the winning number.
-- **07 — Building a Linear Regression Model: Fits and interprets Linear Regression models on two classic benchmarks (the Diabetes dataset and Boston Housing), pairing the results with a plain-language breakdown of what the intercept and coefficients actually mean.
+- **06 — Hyperparameter Tuning (Random Forest):** Builds an untuned Random Forest baseline (0.85 test accuracy), then uses `GridSearchCV` across 100 hyperparameter combinations (5-fold CV, 500 fits) to find a better configuration — and visualizes the entire search space as 2D/3D plots rather than just reporting the winning number.
+- **07 — Building a Linear Regression Model:** Fits and interprets Linear Regression models on two classic benchmarks (the Diabetes dataset and Boston Housing), pairing the results with a plain-language breakdown of what the intercept and coefficients actually mean.
 
-> 📎 Every project folder has its own README with the full technical write-up. Descriptions for Projects 05 and 06 above are based on their file/folder naming since their notebooks haven't been reviewed in detail yet — happy to sharpen either once shared.
+> 📎 Every project folder has its own README with the full technical write-up. Project 05's description above is based on its file/folder naming since its notebook hasn't been reviewed in detail yet — happy to sharpen it once shared.
 
 ---
 
