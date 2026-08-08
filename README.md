@@ -86,7 +86,9 @@ I care less about collecting algorithm names and more about the fundamentals und
 | 02 | [**Data Preprocessing**](./02_Data_Preprocessing) | Data Cleaning & Preprocessing | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
 | 03 | [**Transaction Pattern Analysis**](./03_Transaction_Pattern_Analysis) | Clustering & Classification | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
 | 04 | [**Building Classification Model**](./04_Building_Classification_Model) | Classification | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
-| 05 | [**Comparing Classifiers for Building Classification Model**](./05_Comparing_Classifiers_for_Building_Classification_Model) | Classification | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
+| 05 | [**Comparing Classifiers for Building Classification Models**](./05_Comparing_Classifiers_for_Building_Classification_Models) | Classification | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
+| 06 | [**Hyperparameter Tuning — Random Forest**](./06_hyperparameter_tuning_Random_Forest) | Model Optimization | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
+| 07 | [**Building a Linear Regression Model**](./07_Building_a_Linear_Regression_Model) | Regression | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
 
 **A closer look at each:**
 
@@ -94,9 +96,11 @@ I care less about collecting algorithm names and more about the fundamentals und
 - **02 — Data Preprocessing:** A dedicated preprocessing exercise on the UCI Wine dataset — cleaning, scaling, and encoding tabular data properly before it ever reaches a model.
 - **03 — Transaction Pattern Analysis:** A two-stage pipeline on bank transaction data — K-Means clustering to discover customer segments, then a tuned classifier to predict segment membership. Rated **Advanced** by Dicoding Indonesia's review team.
 - **04 — Building Classification Model:** A foundational Random Forest classifier on the Iris dataset, built specifically to demonstrate and then fix a data leakage problem — comparing an overfit model against a properly validated one.
-- **05 — Comparing Classifiers for Building Classification Model:** Benchmarks multiple classification algorithms against each other on a shared classification task — a direct follow-up to the "try other classifiers" idea flagged as future work in Project 04.
+- **05 — Comparing Classifiers for Building Classification Models:** Benchmarks multiple classification algorithms against each other on a shared classification task — a direct follow-up to the "try other classifiers" idea flagged as future work in Project 04.
+- **06 — Hyperparameter Tuning (Random Forest):** Focused practice on systematically tuning a Random Forest model rather than relying on default settings — directly fulfilling the "Model Optimization" roadmap goal below.
+- **07 — Building a Linear Regression Model:** Fits and interprets Linear Regression models on two classic benchmarks (the Diabetes dataset and Boston Housing), pairing the results with a plain-language breakdown of what the intercept and coefficients actually mean.
 
-> 📎 Every project folder has its own README with the full technical write-up. Project 05's description above is based on its file naming; happy to sharpen it further once its notebook is shared for a detailed review.
+> 📎 Every project folder has its own README with the full technical write-up. Descriptions for Projects 05 and 06 above are based on their file/folder naming since their notebooks haven't been reviewed in detail yet — happy to sharpen either once shared.
 
 ---
 
@@ -142,8 +146,16 @@ Machine-Learning-Projects/
 │   ├── iris_classification_random_forest.ipynb
 │   └── README.md
 │
-├── 05_Comparing_Classifiers_for_Building_Classification_Model/
-│   ├── Comparing_Classifiers_for_Building_Classification_Model.ipynb
+├── 05_Comparing_Classifiers_for_Building_Classification_Models/
+│   ├── Comparing_Classifiers_for_Building_Classification_Models.ipynb
+│   └── README.md
+│
+├── 06_hyperparameter_tuning_Random_Forest/
+│   └── README.md
+│
+├── 07_Building_a_Linear_Regression_Model/
+│   ├── Building_a_Linear_Regression_Model.ipynb
+│   ├── BostonHousing.csv
 │   └── README.md
 │
 ├── .gitignore
@@ -160,9 +172,10 @@ Machine-Learning-Projects/
 - [x] Supervised learning (Linear Regression, Decision Trees, Random Forest)
 - [x] Unsupervised learning (K-Means clustering, PCA)
 - [x] Comparing multiple classification algorithms head-to-head
+- [x] Systematic hyperparameter tuning (Random Forest)
 
 **Phase 2 — Model Optimization** 🔥 *current focus*
-- [ ] Systematic hyperparameter tuning (GridSearchCV / RandomizedSearchCV) across more projects
+- [ ] Extending hyperparameter tuning (GridSearchCV / RandomizedSearchCV) to more projects beyond Random Forest
 - [ ] Ensemble methods beyond Random Forest (Gradient Boosting)
 - [ ] Deeper statistical validation (confidence intervals, significance testing on model comparisons)
 
