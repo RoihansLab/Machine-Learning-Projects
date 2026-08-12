@@ -63,6 +63,7 @@ I care less about collecting algorithm names and more about the fundamentals und
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
@@ -71,7 +72,7 @@ I care less about collecting algorithm names and more about the fundamentals und
 |---|---|
 | **Core Language** | Python 3.x |
 | **Data Manipulation** | Pandas, NumPy |
-| **Data Visualization** | Matplotlib, Seaborn |
+| **Data Visualization** | Matplotlib, Seaborn, Plotly (interactive plots) |
 | **Machine Learning** | Scikit-Learn (Linear Regression, Decision Trees, Random Forest, K-Means, PCA) |
 | **Model Persistence** | Joblib |
 | **Environment** | Jupyter Notebook, Google Colab |
@@ -89,6 +90,7 @@ I care less about collecting algorithm names and more about the fundamentals und
 | 05 | [**Comparing Classifiers for Building Classification Models**](./05_Comparing_Classifiers_for_Building_Classification_Models) | Classification | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
 | 06 | [**Hyperparameter Tuning — Random Forest**](./06_hyperparameter_tuning_Random_Forest) | Model Optimization | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
 | 07 | [**Building a Linear Regression Model**](./07_Building_a_Linear_Regression_Model) | Regression | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
+| 08 | [**Principal Component Analysis (PCA)**](./08_Principal_Component_Analysis_(PCA)_for_Handling_High_Dimensional_Data) | Dimensionality Reduction | ![Done](https://img.shields.io/badge/-Completed-2ea44f?style=flat-square) |
 
 **A closer look at each:**
 
@@ -99,6 +101,7 @@ I care less about collecting algorithm names and more about the fundamentals und
 - **05 — Comparing Classifiers for Building Classification Models:** Benchmarks multiple classification algorithms against each other on a shared classification task — a direct follow-up to the "try other classifiers" idea flagged as future work in Project 04.
 - **06 — Hyperparameter Tuning (Random Forest):** Builds an untuned Random Forest baseline (0.85 test accuracy), then uses `GridSearchCV` across 100 hyperparameter combinations (5-fold CV, 500 fits) to find a better configuration — and visualizes the entire search space as 2D/3D plots rather than just reporting the winning number.
 - **07 — Building a Linear Regression Model:** Fits and interprets Linear Regression models on two classic benchmarks (the Diabetes dataset and Boston Housing), pairing the results with a plain-language breakdown of what the intercept and coefficients actually mean.
+- **08 — Principal Component Analysis (PCA):** Compresses the 4-feature Iris dataset down to its most informative components — showing that the first 2 principal components alone retain **95.9%** of the total variance — and visualizes both the transformed data and the original feature loadings in interactive 3D plots.
 
 > 📎 Every project folder has its own README with the full technical write-up. Project 05's description above is based on its file/folder naming since its notebook hasn't been reviewed in detail yet — happy to sharpen it once shared.
 
@@ -151,12 +154,22 @@ Machine-Learning-Projects/
 │   └── README.md
 │
 ├── 06_hyperparameter_tuning_Random_Forest/
-│   ├── hyperparameter_tuning_Random_Forest.ipynb
 │   └── README.md
 │
 ├── 07_Building_a_Linear_Regression_Model/
 │   ├── Building_a_Linear_Regression_Model.ipynb
 │   ├── BostonHousing.csv
+│   └── README.md
+│
+├── 08_Principal_Component_Analysis_(PCA)_for_Handling_High_Dimensional_Data/
+│   ├── images/
+│   │   ├── scree_plot_explained_variance.png
+│   │   ├── scree_plot_combined.png
+│   │   ├── scree_plot_subplots.png
+│   │   ├── scores_plot_basic_3d.png
+│   │   ├── scores_plot_customized_3d.png
+│   │   └── loading_plot_3d.png
+│   ├── Principal_Component_Analysis_(PCA)_for_Handling_High_Dimensional_Data.ipynb
 │   └── README.md
 │
 ├── .gitignore
