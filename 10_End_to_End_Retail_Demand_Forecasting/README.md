@@ -33,39 +33,46 @@ Accurate demand forecasting is critical in retail to prevent stockouts and overs
 ├── label_encoder.pkl                   # Serialized LabelEncoder for categorical features
 ├── pyrightconfig.json                  # Python type checking configuration
 └── README.md                           # Project documentation
+```
 
-📊 Model Performance & Evaluation
+---
+
+## 📊 Model Performance & Evaluation
 To ensure the model is robust and generalizable, it was evaluated using a comprehensive suite of business and technical metrics on the test data:
 
-R² Score: 0.428 (Indicates stable pattern recognition without severe overfitting compared to the train set's 0.504)
+- **R² Score:** 0.428 (Indicates stable pattern recognition without severe overfitting compared to the train set's 0.504)
+- **MAE (Mean Absolute Error):** 26.99 units (Average deviation per prediction)
+- **RMSE (Root Mean Squared Error):** 35.55 units (Penalizes extreme outliers)
+- **MAPE (Mean Absolute Percentage Error):** 38.88% (Relative accuracy margin)
 
-MAE (Mean Absolute Error): 26.99 units (Average deviation per prediction)
+---
 
-RMSE (Root Mean Squared Error): 35.55 units (Penalizes extreme outliers)
+## 💻 How to Run Locally
 
-MAPE (Mean Absolute Percentage Error): 38.88% (Relative accuracy margin)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RoihansLab/Machine-Learning-Projects.git
+   ```
 
-💻 How to Run Locally
-Clone the repository:
+2. **Navigate to the project folder:**
+   ```bash
+   cd Machine-Learning-Projects/10_End_to_End_Retail_Demand_Forecasting
+   ```
 
-Bash
-git clone [https://github.com/RoihansLab/Machine-Learning-Projects.git](https://github.com/RoihansLab/Machine-Learning-Projects.git)
-Navigate to the project folder:
+3. **Install dependencies:**
+   Make sure you have the required libraries installed in your environment:
+   ```bash
+   pip install pandas numpy scikit-learn xgboost streamlit
+   ```
 
-Bash
-cd Machine-Learning-Projects/10_End_to_End_Retail_Demand_Forecasting
-Install dependencies:
-Make sure you have the required libraries installed in your environment:
+4. **Run the Streamlit web application:**
+   ```bash
+   streamlit run app.py
+   ```
 
-Bash
-pip install pandas numpy scikit-learn xgboost streamlit
-Run the Streamlit web application:
+---
 
-Bash
-streamlit run app.py
-👤 Author
-Roihan Saputra
-
-D4 Informatics Engineering Student at Politeknik Negeri Semarang (Polines)
-
-GitHub Profile | LinkedIn Profile
+## 👤 Author
+**Roihan Saputra**  
+*D4 Informatics Engineering Student at Politeknik Negeri Semarang (Polines)*  
+[GitHub Profile](https://github.com/RoihansLab) | [LinkedIn Profile](#)
