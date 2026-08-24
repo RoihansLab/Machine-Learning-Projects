@@ -1,0 +1,12 @@
+{
+    "pythonVersion": "3.10",
+    "pythonPlatform": "Windows",
+    "extraPaths": [
+        "D:\\College\\Machine Learning Project\\Anaconda\\envs\\ml_env\\lib\\site-packages",
+        "D:\\College\\Machine Learning Project\\Anaconda\\envs\\ml_env\\Lib\\site-packages"
+    ],
+    "venvPath": "D:\\College\\Machine Learning Project\\Anaconda\\envs",
+    "venv": "ml_env",
+    "reportMissingImports": false,
+    "reportMissingModuleSource": false
+}

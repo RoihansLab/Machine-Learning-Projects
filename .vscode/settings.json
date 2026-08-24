@@ -1,0 +1,13 @@
+{
+    "python.defaultInterpreterPath": "D:\\College\\Machine Learning Project\\Anaconda\\envs\\ml_env\\python.exe",
+    "python.analysis.extraPaths": [
+        "D:\\College\\Machine Learning Project\\Anaconda\\envs\\ml_env\\lib\\site-packages",
+        "D:\\College\\Machine Learning Project\\Anaconda\\envs\\ml_env\\Lib\\site-packages"
+    ],
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none"
+    },
+    "python.languageServer": "Pylance"
+}
